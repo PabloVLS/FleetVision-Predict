@@ -1,58 +1,79 @@
-FleetVision-Predict - Sistema de Previsão de Frota Veicular
-Sistema avançado de previsão de frota veicular utilizando modelos de regressão semi-supervisionada para projeções anuais precisas. Desenvolvido com Java Spring Boot e Thymeleaf, oferece análises preditivas baseadas em dados históricos de 2006-2024.
+#  FleetVision-Predict - Sistema de Previsão de Frota Veicular
 
-Funcionalidades Principais
-Multiplos Modelos de Regressão
+Sistema avançado de previsão de frota veicular utilizando **modelos de regressão semi-supervisionada** para projeções anuais precisas.  
+Desenvolvido com **Java Spring Boot** e **Thymeleaf**, oferece **análises preditivas** baseadas em dados históricos de **2006–2024**.
 
-Regressão Linear Simples
+---
 
-Regressão Polinomial Simples (Graus 2-5)
+##  Funcionalidades Principais
 
-Regressão Polinomial Multipla (Graus 2-5)
+###  Múltiplos Modelos de Regressão
+- **Regressão Linear Simples**
+- **Regressão Polinomial Simples** (Graus 2–5)
+- **Regressão Polinomial Múltipla** (Graus 2–5)
 
-Projeções Anuais Detalhadas
+###  Projeções Anuais Detalhadas
+- Previsão de frota veicular até **2050**
+- Cálculo de **diferenças e variações percentuais**
+- **Visualização em tabela dinâmica**
 
-Previsão de frota veicular até 2050
+###  Base de Dados Histórica
+- Dados consolidados de **2006–2024**
+- Análise de **tendências e crescimento**
+- Interface intuitiva para **comparações**
 
-Calculo de diferenças e variações percentuais
+---
 
-Visualização em tabela dinâmica
+## 🧰 Tecnologias Utilizadas
 
-Base de Dados Histórica
+**Backend:**  
+- Java 25  
+- Spring Boot 3  
+- Spring MVC  
 
-Dados consolidados de 2006-2024
+**Frontend:**  
+- Thymeleaf  
+- HTML5, CSS3, JavaScript  
 
-Analise de tendências e crescimento
+**Arquitetura:**   
+- DTO Pattern  
+- Service Layer  
 
-Interface intuitiva para comparações
+**Ferramentas:**  
+- Maven  
+- Lombok  
+- Spring Boot DevTools  
 
-Tecnologias Utilizadas
-Backend: Java 17, Spring Boot 3, Spring MVC
+---
 
-Frontend: Thymeleaf, HTML5, CSS3, JavaScript
+##  Características Técnicas
 
-Arquitetura: MVC, DTO Pattern, Service Layer
+- Padronização de código com prefixo **`PVLS_`**
+- Tratamento de **exceções robusto**
+- Interface **responsiva e moderna**
+- Cálculos matemáticos precisos baseados em **dados reais**
+- Sistema de **abas** para melhor organização
 
-Ferramentas: Maven, Lombok, Spring Boot DevTools
+---
 
-Características Técnicas
-Padronização de código com prefixo PVLS_
+##  Aplicação Acadêmica
 
-Tratamento de exceções robusto
-
-Interface responsiva e moderna
-
-Calculos matemáticos precisos baseados em dados reais
-
-Sistema de abas para melhor organização
-
-Aplicação Acadêmica
 Projeto desenvolvido para demonstração de:
 
-Aplicação de modelos de regressão em problemas reais
+- Aplicação de **modelos de regressão** em problemas reais  
+- **Desenvolvimento web** com Spring Boot  
+- **Análise preditiva** de séries temporais  
+- Boas práticas de **padronização de código**
 
-Desenvolvimento web com Spring Boot
+---
 
-Analise preditiva de séries temporais
+###  Exemplo de Uso (opcional)
+```bash
+# Clonar repositório
+git clone https://github.com/seu-usuario/FleetVision-Predict.git
 
-Boas práticas de padronização de código
+# Entrar no diretório
+cd FleetVision-Predict
+
+# Executar o projeto
+mvn spring-boot:run
