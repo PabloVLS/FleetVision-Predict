@@ -24,7 +24,7 @@ Desenvolvido com **Java Spring Boot** e **Thymeleaf**, oferece **análises predi
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 **Backend:**  
 - Java 25  
@@ -66,14 +66,3 @@ Projeto desenvolvido para demonstração de:
 - Boas práticas de **padronização de código**
 
 ---
-
-###  Exemplo de Uso (opcional)
-```bash
-# Clonar repositório
-git clone https://github.com/seu-usuario/FleetVision-Predict.git
-
-# Entrar no diretório
-cd FleetVision-Predict
-
-# Executar o projeto
-mvn spring-boot:run
